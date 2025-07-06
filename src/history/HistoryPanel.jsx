@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import MCQChallenge from '../challenge/MCQChallenge'
-import {useApi} from '../utils/Api.js'
+import {useApi} from '../utils/api.js'
 
 
 const HistoryPanel = () => {
