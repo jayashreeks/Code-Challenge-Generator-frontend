@@ -13,7 +13,7 @@ export const useApi = () => {
                 Authorization: `Bearer ${token}`,
             },
     }
-        const response = await fetch(`https://code-challenge-generator-backend-oeers8vx2-jayashreeks-projects.vercel.app/api/${endpoint}`, {
+        const response = await fetch(`http://localhost:8000/api/${endpoint}`, {
             ...defaultOptions,
             ...options
         })
